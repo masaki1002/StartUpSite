@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RiRiku</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- disabling the phone number detection system -->
+  <meta name="format-detection" content="telephone=no">
+  <meta content="湘南台にある治療院ひなた。はり、灸、吸角、指圧、あんま、オイルマッサージなどの治療を行なっております。お子様からご年配、スポーツ選手に至るまで、幅広く治療を行ないます。お気軽にご相談下さい。" name="description">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="https://www.silhouette-ac.com/sozai/m/138/34/138345m.jpg">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- fontawesome -->
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Kosugi|Kosugi+Maru" rel="stylesheet">
+
+
+<!-- Top & Navbar -->
+<section id="page-menu">
+  <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+  <a href="tel:0466-53-5690" class="navbar-brand" styles="color: #fac70b;"><span class="mb-0 h"><b style="letter-spacing:4px;">ひなた治療院</b><br><i class="fas fa-phone-volume"></i>0466-53-5690</span></a>
+  <!-- <div><p styles="color: #fffafa;">2019年10月1日〜13日はお休み</p></div> -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerHinataClinic" aria-controls="navbarTogglerHinataClinic" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerHinataClinic">
+    <ul class="navbar-nav mt-2 mt-lg-0 ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#page-menu" style="color:#facf5a;">Top</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services" style="color:#facf5a;">治療メニュー</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#staff-introduction" style="color:#facf5a;">スタッフ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#QA" style="color:#facf5a;">Q&Aコーナー</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#business-hours" style="color:#facf5a;">アクセス</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact" style="color:#facf5a;">コンタクト・ブログ</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</section>
+
+<!-- SlideShow -->
+<section id="slide-show">
+  <div class="row">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="image/slideShow/exterior.jpg" alt="ひなた治療院　外観">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="image/slideShow/clinicInterior.jpg" alt="ひなた治療院　内装">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="image/slideShow/needles.jpg" alt="ひなた治療院　鍼">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="image/slideShow/staff.jpg" alt="ひなた治療院　スタッフ">
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Introduction -->
+<section id="introduction">
+  <div class="container">
+    <p class="intro-format">
+    当院では、明るくアットホームな雰囲気で有名ミュージシャンやプロスポーツ選手の治療経験のある、
+    鍼師・灸師・あん摩マッサージ指圧師の国家資格を持つスタッフが、赤ちゃんから高齢者までジャンルを問わず
+    様々な疾患・痛みに対しての治療を行なっています。また、リラクゼーション目的のオイルマッサージなども行なっておりますので、
+    お気軽にお越し下さい。
+    </p>
+    <br>
+    <p class="intro-format">
+    また、使い捨ての鍼を使用したはり治療や、お灸などを行なっております。
+    あん摩マッサージ指圧師の資格を持つスタッフが、様々な手技を用いて治療していきます。
+    植物性オイルを使用したマッサージは、リラクゼーション目的だけでなく、治療目的としても行なっています。
+    鍼灸マッサージ治療の適応疾患をご紹介しております。治療を行えばすぐに全ての症状が改善されるとは限りませんので、まずはご相談下さい。
+    </p>
+  </div>
+</section>
+
+
+<!-- Services -->
+<section id="services">
+    <h2 class="subtitle-text">治療メニュー</h2>
+    <div class="serviceBox">
+      <div class="container">
+        <div class="row">
+          <!-- 鍼 -->
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <!-- 鍼 Button trigger modal -->
+            <button type="button" class="btn invisible-button" data-toggle="modal" data-target="#acupuncture" onfocus="this.blur();">
+              <div class="card border-light mb-3" style="max-width: 16rem;">
+                <img class="card-img-top" src="http://www.silhouette-ac.com/sozai/m/138/37/138372m.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title service-name">鍼/お灸</h5>
+                </div>
+              </div>
+            </button>
+            <!-- 鍼 Modal -->
+            <div class="modal fade" id="acupuncture" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header header-color">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body modal-description">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <h1>鍼/お灸</h1>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <img class="subImage" src="http://www.silhouette-ac.com/sozai/m/138/37/138372m.jpg" alt="Card image cap">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <br>
+                          <p>当院ではディスポーザブル（使い捨て）の鍼を使用しており、衛生管理・消毒などの徹底を
+                          心掛けておりますので、感染症などの心配はありません。また、鍼の太さは毛髪程度で、注射針の
+                          ような痛みを感じる事はほとんどありません。どうしても鍼に抵抗がある方には無理強いしたりする事はしませんので、
+                          安心してご来院下さい。当院で行なう鍼治療は、身体の表面、主に経穴（ツボ）にあたる部位や反応点
+                          （特定の筋や腱・痛みの強い部位）に鍼を刺入します。</p>
+                        </div>
+                      </div>
+                      <hr class="border-line02">
+                      <div class="row">
+                        <ul class="list-group list-group-flush cost-table">
+                          <li class="list-group-item"><b>料金表</b></li>
+                          <!-- <li class="list-group-item">初診料: １，０００円＋税</li> -->
+                          <!-- <li class="list-group-item">初診料: １，１００円</li> -->
+                          <li class="list-group-item">鍼灸治療: ６，０００円</li>
+                          <li class="list-group-item">花粉症治療: １０，５００円</li>
+                          <li class="list-group-item">逆子治療: ３，５００円</li>
+                          <li class="list-group-item">※上記「花粉症治療」の料金は１クール(３回)分です</li>
+                          <li class="list-group-item">※初診料/再診料(前回の来院から半年以上経過)として、別途１，５００円を頂戴します</li>
+                        </ul>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-warning" data-dismiss="modal">閉じる</button>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- あん摩・指圧・マッサージ -->
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <!-- あん摩・指圧・マッサージ Button trigger modal -->
+            <button type="button" class="btn invisible-button" data-toggle="modal" data-target="#anma-fingerPressureTheraphy-massage" onfocus="this.blur();">
+              <div class="card border-light mb-3" style="max-width: 16rem;">
+                <img class="card-img-top" src="https://www.silhouette-ac.com/sozai/m/138/28/138287m.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title service-name">あん摩・指圧・マッサージ</h5>
+                </div>
+              </div>
+            </button>
+            <!-- あん摩・指圧・マッサージ Modal -->
+            <div class="modal fade" id="anma-fingerPressureTheraphy-massage" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header header-color">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body modal-description">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <h3>あん摩・指圧・マッサージ</h3>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <img class="subImage" src="https://www.silhouette-ac.com/sozai/m/138/28/138287m.jpg" alt="Card image cap">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <br>
+                          <p>当院では、押す・引く・撫でる・さする・揉む・叩く等といった手技を用いて、個々の症状、体格などに適した刺激量を選んで治療を行なっていきます。
+
+                          あん摩・指圧は経穴（ツボ）や経絡（ツボとツボを結ぶ経路）を意識して施術するのに対して、マッサージはリンパや血液の流れ、筋肉の走行に沿って施術を行ないます。
+                          また、あん摩・指圧は体の中心から抹消に向かって遠心性の刺激を与えるのに対して、マッサージは体の抹消から中心に向かって求心性の刺激を与えていきます。
+                          いずれの効果も皮膚からの触圧刺激により、直接的にはリンパ管や血管などの循環器系に、間接的には神経系の反射を介して、内臓などに影響を与えます。
+
+                          それぞれ手技や理論などは違いますが、治療や癒しを目的とする事は共通しています。
+                          あん摩は中国、指圧は日本、マッサージはフランスで生まれた手技療法です。
+                          現在、日本においてあん摩・指圧・マッサージは、1つの国家資格として認められています。</p>
+                        </div>
+                      </div>
+                      <hr class="border-line02">
+                      <div class="row">
+                        <ul class="list-group list-group-flush cost-table">
+                          <li class="list-group-item"><b>料金表</b></li>
+                          <!-- <li class="list-group-item">初診料: １，１００円</li> -->
+                          <li class="list-group-item">一回: ６，０００円</li>
+                          <li class="list-group-item">※初診料/再診料(前回の来院から半年以上経過)として、別途１，５００円を頂戴します</li>
+
+                        </ul>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-warning" data-dismiss="modal">閉じる</button>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- リンパ浮腫治療 -->
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <!-- リンパ浮腫治療 Button trigger modal -->
+            <button type="button" class="btn invisible-button" data-toggle="modal" data-target="#lymphticDrainage" onfocus="this.blur();">
+              <div class="card border-light mb-3" style="max-width: 16rem;">
+                <img class="card-img-top" src="https://www.silhouette-ac.com/sozai/m/130/07/130079m.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title service-name">リンパ浮腫治療</h5>
+                </div>
+              </div>
+            </button>
+            <!-- リンパ浮腫治療 Modal -->
+            <div class="modal fade" id="lymphticDrainage" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header header-color">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body modal-description">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <h3>リンパ浮腫治療</h3>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <img class="subImage" src="https://www.silhouette-ac.com/sozai/m/130/07/130079m.jpg" alt="Card image cap">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <br>
+                          <p>リンパ浮腫とは体内組織にタンパク質や水分が溜まる状態をいいます。</p>
+                          <p style="margin-bottom: 0.1rem; text-align:left;">原因として</p>
+                          <p style="font-size: 0.9rem; text-align:left;">①原発性浮腫:リンパ節やリンパ管の発育不全によるもの</p>
+                          <p style="font-size: 0.9rem; line-height:160%; text-align:left;">②続発性浮腫:乳ガン・子宮ガン・前立腺ガンなどの手術や放射線治療の後遺症、静脈疾患、<span class="break">寄生虫によるもの</p>
+                          <br>
+                          <p>
+                          体内組織のリンパの流れが滞るため腕や足がむくみ・だるさ・重さ
+                          疲れやすさ・深部痛などを感じます。
+                          さらに免疫力が低下するため　炎症を起こしやすくなります。
+                          むくみは　手術後すぐに発症する場合もあれば　5年後、10年後に発症する場合もあります。
+                          症状はゆっくり進行しますが、適切な治療を受けなかったり、
+                          炎症を繰り返すと象皮症にまで進むこともあります。
+                          むくみを感じたら、早い段階で専門医の診断を受け、
+                          専門知識と技術を習得したセラピストによる複合的理学療法を受けることが大切です。
+                          </p>
+                          <br>
+
+                          <p style="text-decoration: underline;">"複合的理学療法"とは</p>
+                          <ul class="remove-bullet">
+                            <li class="in-between">・スキンケア</li>
+                            <li class="in-between">・医療リンパドレナージ<span class="break">（リンパ液を排液するマッサージ）</span></li>
+                            <li class="in-between">・圧迫療法<span class="break">（弾性包帯やスリーブ・ストッキングによる）</span></li>
+                            <li class="in-between">・運動療法</li>
+                            <li class="in-between">・セルフケア指導</li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <hr class="border-line02">
+                      <div class="row">
+                        <ul class="list-group list-group-flush cost-table">
+                          <li class="list-group-item"><b>料金表(セルフケア指導料含)</b></li>
+                          <!-- <li class="list-group-item">初診料: ２，２００円</li> -->
+                          <li class="list-group-item">６０分: １０，５００円</li>
+                          <li class="list-group-item">９０分: １５，５００円</li>
+                          <li class="list-group-item">弾性包帯施行料: １，５００円</li>
+                          <li class="list-group-item">弾性包帯購入費用: ４，４００円 ～ １６，５００円</li>
+                          <li class="list-group-item">※初診料/再診料(前回の来院から半年以上経過)として、別途２，５００円を頂戴します</li>
+                        </ul>
+                      </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-warning" data-dismiss="modal">閉じる</button>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ヨモギ蒸し -->
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <!-- ヨモギ蒸し Button trigger modal -->
+            <button type="button" class="btn invisible-button" data-toggle="modal" data-target="#saunaSteams" onfocus="this.blur();">
+              <div class="card border-light mb-3" style="max-width: 16rem;">
+                <img class="card-img-top" src="https://www.silhouette-ac.com/sozai/m/166/16/166167m.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title service-name">ヨモギ蒸し</h5>
+                </div>
+              </div>
+            </button>
+            <!-- ヨモギ蒸し Modal -->
+            <div class="modal fade" id="saunaSteams" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header header-color">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body modal-description">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <h3>ヨモギ蒸し</h3>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <img class="subImage" src="https://www.silhouette-ac.com/sozai/m/166/16/166167m.jpg" alt="Card image cap">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <br>
+                          <p>
+                            よもぎにはシネオール他の精油成分が含まれ、
+                            温熱効果があり湯冷めをしにくいのです。
+                            「よもぎ蒸し」をした後、不思議とほかほか感が持続するのは、
+                            この成分が働きかけている ことも大きいのです。
+                            また殺菌・消炎作用がある事から肌に大変良く、しっしん、吹き出物、
+                            かさつきを抑えます。お灸のもぐさは、よもぎが利用されていますのが、
+                            これは腰痛・神経痛に効果的に働きかけると言われているからなのです。
+                            漢方として名高いよもぎ。
+                            私達の体には色々な良い作用を示してくれるのです。
+                            30代～60代後半の女性から大きな反響を頂いております。
+                          </p>
+                        </div>
+                      </div>
+                      <hr class="border-line02">
+                      <div class="row">
+                        <ul class="list-group list-group-flush cost-table">
+                          <li class="list-group-item"><b>料金表</b></li>
+                          <li class="list-group-item">２，５００円（鍼・灸・指圧・オイルマッサージと併用の時は半額）</li>
+                        </ul>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-warning" data-dismiss="modal">閉じる</button>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 美顔鍼 -->
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <!-- 美顔鍼　Button trigger modal -->
+            <button type="button" class="btn invisible-button" data-toggle="modal" data-target="#beautyFace" onfocus="this.blur();">
+              <div class="card border-light mb-3" style="max-width: 16rem;">
+                <img class="card-img-top" src="https://www.silhouette-ac.com/sozai/m/138/33/138336m.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title service-name">美顔鍼</h5>
+                </div>
+              </div>
+            </button>
+            <!-- 美顔鍼  Modal -->
+            <div class="modal fade" id="beautyFace" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header header-color">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body modal-description">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <h3>美顔鍼</h3>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <img class="subImage" src="https://www.silhouette-ac.com/sozai/m/138/33/138336m.jpg" alt="Card image cap">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <br>
+                          <p>
+                          美顔鍼とは顔面・頭皮のツボに鍼を打つことにより皮膚や筋肉に作用し、血液やリンパの流れを
+                          促進させ、細胞内の老廃物を排除させ栄養を送り込むことができます。
+                          汗腺や皮脂腺の分泌も調整され、皮膚に潤いと血色、弾力を与え、乾燥肌や顔色の
+                          くすみ、シミ、小ジワ、吹き出物等の改善、さらに皮膚のたるみや引き締め効果により
+                          リフトアップ・小顔効果も期待できます。
+                          美顔鍼では極めて細い鍼を使用しますが、顔面の血管は非常に細い為、稀に内出血等する場合が
+                          あります。この事を御了承頂いた上で施術させていただきます。</p>
+                        </div>
+                      </div>
+                      <hr class="border-line02">
+                      <div class="row">
+                        <ul class="list-group list-group-flush cost-table">
+                          <li class="list-group-item"><b>料金表</b></li>
+                          <!-- <li class="list-group-item">初診料: １，１００円</li> -->
+                          <li class="list-group-item">美顏 おてがる: ３，５００円</li>
+                          <li class="list-group-item">美顏 しっかり: ６，０００円</li>
+                          <!-- <li class="list-group-item">美顏 スペシャル: １１，０００円</li> -->
+                          <li class="list-group-item">※初診料/再診料(前回の来院から半年以上経過)として、別途１，５００円を頂戴します</li>
+                        </ul>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-warning" data-dismiss="modal">閉じる</button>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 小児鍼 -->
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <!-- 小児鍼 Button trigger modal -->
+            <button type="button" class="btn invisible-button" data-toggle="modal" data-target="#infantAcupunctures" onfocus="this.blur();">
+              <div class="card border-light mb-3" style="max-width: 16rem;">
+                <img class="card-img-top" src="https://www.silhouette-ac.com/sozai/m/122/91/122916m.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title service-name">小児鍼</h5>
+                </div>
+              </div>
+            </button>
+            <!-- 美顔鍼・小児鍼 Modal -->
+            <div class="modal fade" id="infantAcupunctures" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header header-color">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body modal-description">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <h3>小児鍼</h3>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <img class="subImage" src="https://www.silhouette-ac.com/sozai/m/122/91/122916m.jpg" alt="Card image cap">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <br>
+                          <p>
+                            小児鍼とは先の丸い鍼や平らな形の鍼を使って全身を摩擦したりツボに刺激を与えたりするものです。
+                            鍼で皮膚を刺激する事により、内臓や脳の働きが活性化し免疫力を高め、自律神経やホルモンの調整を行います。
+                            疳の虫・夜泣き・キーキー声を出す・よく泣く・不機嫌・噛み付く・
+                            夜尿症・風邪を引きやすい・よく熱を出す・ひきつけ・食欲不振・
+                            下痢・便秘・よく腹痛を起こす・アレルギー疾患・喘息・扁桃腺炎
+                            などの症状に効果があります。
+                            副作用の心配はほとんどありません。(まれに眠くなる場合があります)
+                            治療時間は５～１０分です。体質改善には１年以上が望ましいです。
+                            また、年齢は新生児から治療できます。早い時期に始めるほど高い効果が得られます。</p>
+                        </div>
+                      </div>
+                      <hr class="border-line02">
+                      <div class="row">
+                        <ul class="list-group list-group-flush cost-table">
+                          <li class="list-group-item"><b>料金表</b></li>
+                          <!-- <li class="list-group-item">耳鍼: ２，２００円（鍼・灸・指圧・オイルマッサージと併用の時は半額）</li> -->
+                          <li class="list-group-item">耳鍼: ２，５００円（鍼・灸・指圧と併用の時は半額）</li>
+                          <li class="list-group-item">小児鍼: １，５００円</li>
+                        </ul>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-warning" data-dismiss="modal">閉じる</button>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- 適応症・禁忌症 -->
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <!-- 適応症・禁忌症 Button trigger modal -->
+            <button type="button" class="btn invisible-button" data-toggle="modal" data-target="#indication-contraindications" onfocus="this.blur();">
+              <div class="card border-light mb-3" style="max-width: 16rem;">
+                <img class="card-img-top" src="https://www.silhouette-ac.com/sozai/m/138/28/138285m.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title service-name">適応症・禁忌症</h5>
+                </div>
+              </div>
+            </button>
+            <!-- 適応症・禁忌症 Modal -->
+            <div class="modal fade" id="indication-contraindications" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header header-color">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body modal-description">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <h3>適応症・禁忌症</h3>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <img class="subImage" src="https://www.silhouette-ac.com/sozai/m/138/28/138285m.jpg" alt="Card image cap">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <br>
+                          <p>治療を行なったからといって、すぐに全ての疾患の症状が改善されるとは限りません。
+                          疾患によっては治療後すぐに症状が改善されるものもありますが、慢性的な疾患・症状は、数回にわたる治療が必要な場合もあります。慢性的な肩こりなど、長い間溜め込んできた疾患・症状を、一回の治療で完全に取り去るのは、なかなか難しいものです。
+                          治療後、一時的に症状が悪化したような感じになったり、体がだるくなる事がありますが、これは症状が改善していく前兆ですのでご心配ありません。
+                          また、治療後は養生（体を休める）する必要もあるので、治療直後の入浴は避け、大食深酒をしないようにし、激しい運動を控え、睡眠をしっかりとる事が望ましいでしょう。
+
+                          ここでは、鍼灸・あん摩・マッサージ・指圧の適応疾患をまとめてご紹介します。
+                          一部それぞれの治療法に適さない疾患も含みます。</p>
+                        </div>
+                      </div>
+
+                      <!-- 適応症 -->
+                      <div class="Tekiyosho">
+                        <h5>適応症</h5>
+                        <table class="table table-sm">
+                          <thead style="background-color:#34699a; ">
+                            <tr>
+                              <th scope="col-xs-2" style="color:#fffafa;"></th>
+                              <th scope="col-xs-10" style="color:#fffafa;">疾患名</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row" class="cloth-table">神経系</th>
+                              <td class="cloth-table">三叉神経痛・肋間神経痛・坐骨神経痛・顔面神経痛・顔面神経麻痺・筋緊張性頭痛・自律神経失調症・脳卒中後遺症・帯状疱疹・不眠症・めまい・しびれ</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">運動器系</th>
+                              <td class="cloth-table">肩関節周囲炎（五十肩）・むちうち症・頸肩腕症候群・寝ちがい・顎関節症肩こり・腰痛（ギックリ腰、椎間板ヘルニア）・テニス肘・腱鞘炎・バネ指
+                                  変形性膝関節症・アキレス腱炎・捻挫・関節炎・関節リウマチ・筋肉痛筋筋膜炎・外傷後遺症</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">消化器系</th>
+                              <td class="cloth-table">口内炎・口角炎・歯痛・胃腸炎・胃下垂・胃酸過多・腹部膨満 胃十二指腸潰瘍・過敏性腸症候群・下痢・便秘・痔疾患</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">循環器系</th>
+                              <td class="cloth-table">高血圧症・低血圧症・動脈硬化症・心悸亢進・狭心症・動悸・むくみ・冷え性</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">呼吸器系</th>
+                              <td class="cloth-table">風邪・気管支炎・喘息・咽頭炎・喉頭炎・扁桃炎・副鼻腔炎・鼻炎・せき</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">泌尿器系</th>
+                              <td class="cloth-table">慢性腎炎・ネフローゼ・腎、尿路結石症・膀胱炎・尿道炎・前立腺肥大</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">感覚器系</th>
+                              <td class="cloth-table">眼精疲労・仮性近視・眼瞼痙攣・白内障・ただれ目 ものもらい・メニエール症候群・耳鳴り・難聴・乗り物酔い</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">代謝障害</th>
+                              <td class="cloth-table">糖尿病・甲状腺機能亢進（バセドウ病）・貧血・痛風</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">婦人科系</th>
+                              <td class="cloth-table">月経痛・月経不順・更年期障害・不妊症・つわり・逆子・乳腺炎・乳汁分泌不全</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">小児科系</th>
+                              <td class="cloth-table">虚弱体質・夜尿症・夜泣き・疳の虫・消化不良・小児喘息</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">その他</th>
+                              <td class="cloth-table">皮膚炎・蕁麻疹・花粉症・円形脱毛症・慢性疲労・しゃっくり・インポテンツ等</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- 禁忌症 -->
+                      <div class="Kinkisyo">
+                        <table class="table table-sm">
+                          <thead style="background-color:#34699a; ">
+                            <tr>
+                              <th scope="col" colspan="2" style="color:#fffafa;">禁忌症</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row" class="cloth-table"></th>
+                              <td class="cloth-table">法定伝染病および、その他の感染症・急性炎症疾患
+                          重篤な疾患（末期悪性腫瘍、心臓疾患、肺結核など）・高熱疾患
+                          異常な血圧状態・血友病・壊血病・精神異常
+                          その他、満腹時（食後直後）や泥酔時、高熱がある時は、治療を避けた方が良いでしょう。</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                  </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-warning" data-dismiss="modal">閉じる</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</section>
+
+<!-- Staff Introduction -->
+<section id="staff-introduction">
+  <h2 class="subtitle-text">スタッフ</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <img class="staff-picture" src="image/staff/MisuzuOeda_new_new.png" alt="Misuzu Oeda"></img>
+        <div class="staff-name">
+          <p>大江田美鈴</p>
+        </div>
+      <div class="staff-position-Misuzu">
+        <p>鍼師・灸師・あん摩マッサージ指圧師<span class="break">フェルディ式リンパドレナージセラピスト</p>
+      </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <img class="staff-picture" src="image/staff/JunichiOeda_new_new.png" alt="Junichi Oeda"></img>
+        <div class="staff-name">
+          <p>大江田淳一</p>
+        </div>
+        <div class="staff-position-Junichi">
+          <p>鍼師・灸師・あん摩マッサージ指圧師<span class="break">フェルディ式リンパドレナージセラピスト</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Q&A -->
+<section id="QA">
+  <div class="container">
+    <h2 class="subtitle-text">Q&Aコーナー</h2>
+    <div class="Q-A">
+      <h4>鍼は痛いですか？</h4>
+      <p>鍼治療で使用するハリは毛髪程度の太さで、注射針のように先端が尖ってなく、松葉の様に丸みをおびている為注射の時のような痛みはありません。</p>
+      <br>
+      <h4>鍼で感染症にかかる心配はないですか？</h4>
+      <p>当院では、全て使い捨ての鍼を使用し、消毒も徹底していますのでご安心下さい。</p>
+      <br>
+      <h4>治療を受ける際に着替えなど持っていくものはありますか？</h4>
+      <p>清潔な治療着をご用意してありますので、手ぶらでいらして下さい。もちろん無料でお貸し致します。</p>
+      <br>
+      <h4>治療費は医療費控除の対象になりますか？</h4>
+      <p>なります。ご希望の方には領収書を発行致しますので、お気軽にお申し付け下さい。</p>
+     <!-- <br> -->
+     <!-- <h4>オイルマッサージの後にシャワーなどの設備はありますか？</h4>
+     <p>申し訳ありませんがございません。施術後はタオルでの拭き取りのみとなります。</p>
+     <br>
+     <h4>鍼とオイルマッサージを一緒に受ける事は出来ますか？</h4>
+     <p>はい、出来ます。その際はそれぞれの時間分の料金を頂きます。</p> -->
+    </div>
+
+  </div>
+</section>
+
+<!-- Map -->
+<section id="business-hours">
+  <div class="row business-top">
+    <div class="col-lg-5 col-md-5 col-sm-12">
+      <div class="business-info">
+        <p><i class="fas fa-map-marker-alt"></i> 神奈川県藤沢市湘南台2-26-17</p>
+        <p><i class="fas fa-subway"></i> 小田急線・相鉄線・市営地下鉄線　湘南台駅西口徒歩４分</p>
+        <p><i class="fas fa-phone"></i> <a href="tel:0466-53-5690" style="color: #ffbe00; text-decoration: none;">TEL&FAX：0466-53-5690</a></p>
+        <p><i class="fas fa-clock"></i> 受付時間 9:00-17:00</p>
+        <p><i class="far fa-calendar-alt"></i> 不定休</p>
+        <!-- <p><i class="far fa-calendar-alt"></i> 休診日：なし(年末年始・臨時休診除く)</p> -->
+        <br>
+      </div>
+      <div class="small-business-info">
+        <p>※予約制とさせて頂きます。予約は電話のみ受付。</p>
+        <p>※オイルマッサージ・リンパ浮腫治療は完全予約制。</p>
+        <p>※駐車場は近隣のコインパーキングをご利用ください。</p>
+        <p>※清潔な治療着をご用意しておりますので、どんな格好でもお越し頂けます。</p>
+        <p>※当院は、藤沢市高齢者はり・きゅう・マッサージ利用券取り扱い、生活保護法指定治療院です。交通事故ご相談ください。</p>
+      </div>
+    </div>
+
+    <div class="col-lg-7 col-md-7 col-sm-12">
+      <div class="googlemap"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1626.286576856071!2d139.4638406!3d35.3910413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018516ccc7e13bd%3A0xe9e119140ebb24ac!2z44Gy44Gq44Gf5rK755mC6Zmi!5e0!3m2!1sja!2sjp!4v1551619669794" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="container">
+    <a class="mail-icon" href="mailto:hinata_chiryoin@yahoo.co.jp?subject=問い合わせ&amp;"><i class="fas fa-envelope fa-2x"></i></a>
+    <br>
+    <div class="row contact-format">
+      <p>氏名・年齢・連絡先・詳しい症状・質問等をご記入のうえ、送信してください。
+    お問い合わせ頂いた方には、その後数日以内にご返答の連絡をさせて頂いております。
+    こちらからの返答が届かない場合は、正しく送信出来ていない可能性がございます。
+    その際は、お手数ですがお電話にてお問い合わせ下さい。</p>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- Links -->
+<section id="footer">
+  <div class="sns">
+    <p>患者様の声/ブログ</p>
+    <a class="sns-element" href="https://ameblo.jp/my6885" target="_blank"><i class="fas fa-blog fa-2x"></i></a>
+    <!-- <a class="sns-element" href="https://ja-jp.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+    <a class="sns-element" href="https://twitter.com/?lang=ja" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+    <a class="sns-element" href="https://www.instagram.com/?hl=ja" target="_blank"><i class="fab fa-instagram fa-2x"></i></a> -->
+  </div>
+
+  <div class="copy-right">
+    <p>© 2024 RiRiku</p>
+  </div>
+  <br>
+</section>
+
+<!-- Bottom Page -->
+<section id="bottom-nav">
+        <nav class="navbar fixed-bottom navbar-dark" style="color: #fac70b;background-color: #1d5464;">
+            <button class="navbar-toggler hamberger-location" type="button" data-toggle="collapse" data-target="#bottom-Nav" aria-controls="bottom-Nav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon" style="color: #fac70b; "></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="bottom-Nav">
+              <ul class="navbar-nav">
+                <br>
+                <li class="nav-item">
+                  <a class="nav-link" href="tel:0466-53-5690" style="color:#facf5a;">ひなた治療院　TEL/FAX: 0466-53-5690</a>
+                </li>
+                <hr class="border-line">
+                <li class="nav-item">
+                  <a class="nav-link" href="#page-menu" style="color:#facf5a;">Top</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services" style="color:#facf5a;">治療メニュー</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#staff-introduction" style="color:#facf5a;">スタッフ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#QA" style="color:#facf5a;">Q&Aコーナー</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#business-hours" style="color:#facf5a;">アクセス</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact" style="color:#facf5a;">コンタクト・ブログ</a>
+                </li>
+              </ul>
+          </nav>
+
+</section>
+
+</div>
+
+</body>
+</html>
