@@ -210,6 +210,18 @@ body{
   padding: 0 9%;
 }
 
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background: #cccccc;
+}
+.txt {
+  display: inline-block;
+  text-align: left;
+}
+
+
 .textleft{
   text-align: left;
 }
