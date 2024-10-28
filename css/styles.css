@@ -211,7 +211,7 @@ body{
 }
 
 .wrapper {
-  max-width: 600px;
+  max-width: 400px;
   margin: 0 auto;
   text-align: center;
   background: #cccccc;
@@ -286,7 +286,7 @@ margin: auto;
 
 .staff-description{
   padding: 0 5%;
-  line-height: 2.0;
+  line-height: 1.5;
   font-size: 1.0rem;
 }
 
