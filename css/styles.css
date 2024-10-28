@@ -28,7 +28,7 @@ body{
 #introduction{
   background-color: #fffafa;
   color: #000000;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   padding: 3rem 2rem 4rem;
   font-family: 'Kosugi Maru', sans-serif;
 }
@@ -171,7 +171,7 @@ body{
 }
 
 .intro-format{
-  font-size: 1.2rem;
+  font-size: 5.0rem;
   line-height: 1.6;
   text-align: left;
 }
@@ -211,7 +211,7 @@ body{
 }
 
 .wrapper {
-  max-width: 400px;
+  max-width: 300px;
   margin: 0 auto;
   text-align: center;
   background: #cccccc;
